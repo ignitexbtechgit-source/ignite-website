@@ -6,10 +6,11 @@
     <meta name="description" content="IgniteX - Student Association of Gregorian Institute of Technology. Explore events, projects, and resources.">
     <meta name="keywords" content="IgniteX,  Gregorian Institute of Technology, student association, tech events">
     <meta name="author" content="IgniteX Team">
+
     <title>IgniteX - College Association</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-     <link rel="icon" href="https://i.postimg.cc/TwjBK125/Logo2.png">
+    <link rel="icon" href="https://i.postimg.cc/TwjBK125/Logo2.png">
     <style>
         .hero-slide {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -57,14 +58,15 @@
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-3">
-   <div class="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center border-2 border-white shadow">
+    <div class="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center border-2 border-white shadow">
         <img src="https://i.postimg.cc/TwjBK125/Logo2.png" 
              alt="IgniteX Logo" 
              class="w-full h-full object-cover">
     </div>
     <div>
+        
         <h1 class="text-xl font-bold text-gray-800">IgniteX</h1>
-        <p class="text-sm text-gray-600">College Association</p>
+        <p class="text-sm font-medium text-gray-600">BTech Department Association </p>
     </div>
 </div>
 
@@ -74,7 +76,7 @@
                     <a href="#tech-events" class="text-gray-700 hover:text-blue-600 transition-colors">Tech Events</a>
                     <a href="#cultural-events" class="text-gray-700 hover:text-blue-600 transition-colors">Cultural Events</a>
                     <a href="#sports-events" class="text-gray-700 hover:text-blue-600 transition-colors">Sports Events</a>
-
+                    <a href="#student-resource" class="text-gray-700 hover:text-blue-600 transition-colors">Academic Resources</a>
 
                     <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
                 </nav>
@@ -90,7 +92,7 @@
                 <a href="#tech-events" class="block py-2 text-gray-700 hover:text-blue-600">Tech Events</a>
                 <a href="#cultural-events" class="block py-2 text-gray-700 hover:text-blue-600">Cultural Events</a>
                 <a href="#sports-events" class="block py-2 text-gray-700 hover:text-blue-600">Sports Events</a>
-
+                <a href="#student-resource" class="block px-3 py-2 text-gray-700 hover:text-blue-600">Academic Resources</a>
 
                 <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
             </div>
@@ -100,32 +102,39 @@
     <!-- Hero Section -->
     <section id="home" class="relative h-screen overflow-hidden mt-20">
         <div class="carousel-container relative h-full">
-            <!-- Slide 1 -->
-            <div class="carousel-slide hero-slide absolute inset-0 flex items-center justify-center text-white">
-                <div class="text-center max-w-4xl px-4">
-                    <h2 class="text-5xl md:text-6xl font-bold mb-6">Welcome to IgniteX</h2>
-                    <p class="text-xl md:text-2xl mb-8">Empowering students through innovation, technology, and collaboration</p>
-                    <button class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">Learn More</button>
-                </div>
+         <!-- ...existing code... -->
+        <!-- Slide 1 -->
+        <div class="carousel-slide hero-slide absolute inset-0 flex items-center justify-center text-white" style="background-image: url('https://i.postimg.cc/28W7Q4kB/College.jpg'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-gradient-to-br from-indigo-600/70 to-purple-700/70"></div>
+            <div class="text-center max-w-4xl px-4 relative z-10">
+                <h2 class="text-5xl md:text-6xl font-bold mb-6">Welcome to IgniteX</h2>
+                <p class="text-xl md:text-2xl mb-8">Empowering students through innovation, technology, and collaboration</p>
+                <button class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">Learn More</button>
             </div>
+        </div>
+<!-- ...existing->
             
+                        
             <!-- Slide 2 -->
-            <div class="carousel-slide hero-slide-2 absolute inset-0 flex items-center justify-center text-white opacity-0">
-                <div class="text-center max-w-4xl px-4">
+            <div class="carousel-slide hero-slide-2 absolute inset-0 flex items-center justify-center text-white opacity-0" style="background-image: url('https://i.postimg.cc/D0JHd80y/tech.jpg'); background-size: cover; background-position: center;">
+                <div class="absolute inset-0 bg-gradient-to-br from-pink-400/70 to-red-400/70"></div>
+                <div class="text-center max-w-4xl px-4 relative z-10">
                     <h2 class="text-5xl md:text-6xl font-bold mb-6">Tech Innovation Hub</h2>
                     <p class="text-xl md:text-2xl mb-8">Join us in shaping the future through cutting-edge technology and creative solutions</p>
                     <button class="bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">Explore Events</button>
                 </div>
             </div>
+<!-- ...existing code... -->
             
             <!-- Slide 3 -->
-            <div class="carousel-slide hero-slide-3 absolute inset-0 flex items-center justify-center text-white opacity-0">
-                <div class="text-center max-w-4xl px-4">
-                    <h2 class="text-5xl md:text-6xl font-bold mb-6">Student Excellence</h2>
-                    <p class="text-xl md:text-2xl mb-8">Celebrating achievements and fostering growth in academics, culture, and sports</p>
-                    <button class="bg-white text-blue-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">Join Us</button>
-                </div>
-            </div>
+                <div class="carousel-slide hero-slide-3 absolute inset-0 flex items-center justify-center text-white opacity-0" style="background-image: url('https://i.postimg.cc/wTS2swDN/excellence.avif'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-400/70 to-cyan-400/70"></div>
+        <div class="text-center max-w-4xl px-4 relative z-10">
+            <h2 class="text-5xl md:text-6xl font-bold mb-6">Student Excellence</h2>
+            <p class="text-xl md:text-2xl mb-8">Celebrating achievements and fostering growth in academics, culture, and sports</p>
+            <button class="bg-white text-blue-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">Join Us</button>
+        </div>
+    </div>
         </div>
         
         <!-- Carousel Controls -->
@@ -267,7 +276,52 @@
     </section>
 
 
+   
+    <!-- Student Help Section -->
+    <section id="student-resource" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Academic Resources</h2>
+            
+                <!-- Previous Year Question Papers -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="text-center mb-6">
+                       
+                      
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gray-100 cursor-pointer">
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-file-pdf text-red-500"></i>
+                                <span class="text-gray-700"><a href="https://drive.google.com/drive/folders/1W5MMjWE9Kzl1Y8LCAodZUCND_BeAEnNZ?usp=sharing" target="_blank">
+    IEEE 
+</a></span>
+                            </div>
+                            
+                        </div>
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gray-100 cursor-pointer">
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-file-pdf text-red-500"></i>
+                                <span class="text-gray-700"><a href="https://drive.google.com/drive/folders/1Mym6ekkQ9iaYkdqHeTTURj4Zbv-La3IE?usp=sharing" target="_blank">
+    ML 
+</a> </span>
+                            </div>
+                            
+                        </div>
+                        <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gray-100 cursor-pointer">
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-file-pdf text-red-500"></i>
+                                <span class="text-gray-700"><a href="https://drive.google.com/drive/folders/1koP2fuT7K91fdhxu41uPuFIVfyY7A_pI?usp=sharing" target="_blank">
+    AI & DS 
+</a></span>
+                            </div>
+                            
+                        </div>
+                    </div>
+               
 
+            </div>
+        </div>
+    </section>
 
 
     <!-- Association Members Section -->
@@ -601,7 +655,7 @@
                         <li><a href="#tech-events" class="text-gray-300 hover:text-white transition-colors">Tech Events</a></li>
                         <li><a href="#cultural-events" class="text-gray-300 hover:text-white transition-colors">Cultural Events</a></li>
                         <li><a href="#sports-events" class="text-gray-300 hover:text-white transition-colors">Sports Events</a></li>
-
+                        <li><a href="#student-resource" class="hover:text-white transition-colors">Academic Resources</a></li>
                     </ul>
                 </div>
                 
@@ -767,6 +821,8 @@
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96e069ccf2e68031',t:'MTc1NTAwNjMzMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
+
 
 
 
